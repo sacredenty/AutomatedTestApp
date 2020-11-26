@@ -199,7 +199,7 @@ public class NewTest {
 		}
 	// 2nd part of take home programming challenge
 	@Test
-	public void webUiTest3() throws IOException, InterruptedException {
+	public void apiTest1() throws IOException, InterruptedException {
 		//send http api calls
 		
 		URL url = new URL(baseUrl3);
@@ -260,7 +260,7 @@ public class NewTest {
 		
 	}
 	@Test
-	public void webUiTest4() throws IOException, InterruptedException {
+	public void apiTest2() throws IOException, InterruptedException {
 		//send http api calls with an invalid username - should get 401 response code
 		
 		URL url = new URL(baseUrl3);
