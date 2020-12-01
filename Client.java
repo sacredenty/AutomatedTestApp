@@ -197,7 +197,7 @@ public class Client {
 
 	// HTTP api related function(s)
 	
-	public JSONObject httpConnect(String baseUrl, String byteOutArray) throws InterruptedException, IOException {
+	public JSONObject httpConnect(String baseUrl, String byteOutArray) throws InterruptedException, IOException, HttpRetryException {
 		try {
 		URL url = new URL(baseUrl);
 		URLConnection con = url.openConnection();
