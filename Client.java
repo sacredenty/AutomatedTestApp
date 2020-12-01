@@ -204,12 +204,6 @@ public class Client {
 		HttpURLConnection http = (HttpURLConnection)con;
 		http.setRequestMethod("POST"); 
 		http.setDoOutput(true);
-		http.setInstanceFollowRedirects(true);
-		http.setDefaultUseCaches(false);
-		http.setConnectTimeout(10000);
-		
-		
-		
 		
 		byte[] out = byteOutArray.getBytes(StandardCharsets.UTF_8);
 		int length = out.length;
